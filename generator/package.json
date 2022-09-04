@@ -1,0 +1,11 @@
+{
+  "name": "generator",
+  "version": "0.1.0",
+  "description": "blog generator",
+  "main": "index.js",
+  "repository": "https://github.com/igorimagine/blog.git",
+  "author": "Igor Durbek",
+  "scripts": {
+    "main": "node index.js"
+  }
+}
