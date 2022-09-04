@@ -13,7 +13,7 @@ function generate(data, permalink, title, date) {
     
     data = F.startParagraph(data);
     data = F.newLineSpace(data);
-    data = F.addLink(data, 'page/2022/1', 'First post!');
+    data = F.addLink(data, 'post/2022/1', 'The golden rule of competitive game design');
     data = F.newLineSpace(data);
     data = F.endParagraph(data);
     data = F.newLine(data);

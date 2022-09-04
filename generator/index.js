@@ -6,13 +6,13 @@ const page1 = require('./page_1');
 console.log('<START>');
 
 let indexPageData = '';
-indexPageData = pageIndex.generate(indexPageData, null, 'Hello, World! (3)', null);
+indexPageData = pageIndex.generate(indexPageData, null, 'A blog about Software Engineering and Esports', null);
 
 fs.writeFileSync('generated/index.html', indexPageData);
 
-let helloData = '';
-helloData = page1.generate(helloData, 'page/2022/1', 'First post!', '2022-09-04');
+let goldenRuleData = '';
+goldenRuleData = page1.generate(goldenRuleData, 'post/2022/1', 'The golden rule of competitive game design', '2022-09-04');
 
-fs.writeFileSync('generated/page_2022_1_first_post.html', helloData);
+fs.writeFileSync('generated/page_2022_1_golden_rule.html', goldenRuleData);
 
 console.log('<END>');
