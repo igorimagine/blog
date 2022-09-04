@@ -9,7 +9,13 @@ function generate(data, permalink, title, date) {
     'There are many rules and guidelines one should follow when designing a competitive game, but I believe one trumps them all.'
     'The golden rule of competitive game design:'
     'When playing a competitive game with balanced match making, you are losing 50% of the time. Therefore, the game should still be fun while losing.'
-    'Let\'s explore this rule trough some comparisons.'
+    'Let\'s explore this rule trough some games.'
+    'Quake 3 Arena vs Counter Strike & Valorant'
+    '(smartphone)'
+    'League vs Dota'
+    'Chess & Starcraft / RTS games'
+    'Street Fighter / Traditional fighting games & MultiVersus / Platform fighting games'
+    'Fortnite / Battle royale games'
 
     data = F.endBody(data);
     data = F.newLine(data);
