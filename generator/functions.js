@@ -37,7 +37,7 @@ function addHeader(data) {
 }
 
 function startBody(data) {
-    return data + "<body style=\"padding: 2%\">";
+    return data + "<body style=\"padding: 5% 20% 5% 20%\">";
 }
 
 function endBody(data) {

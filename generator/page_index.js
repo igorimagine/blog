@@ -6,14 +6,8 @@ function generate(data, permalink, title, date) {
     
     data = F.startParagraph(data);
     data = F.newLineSpace(data);
-    data = F.addText(data, 'TEST LINKS:')
-    data = F.newLineSpace(data);
-    data = F.endParagraph(data);
-    data = F.newLineSpace(data);
-    
-    data = F.startParagraph(data);
-    data = F.newLineSpace(data);
     data = F.addLink(data, 'post/2022/1', 'The golden rule of competitive game design');
+    data = F.addText(data, ' (2022-09-04)');
     data = F.newLineSpace(data);
     data = F.endParagraph(data);
     data = F.newLine(data);
