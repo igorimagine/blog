@@ -37,7 +37,7 @@ function addHeader(data) {
 }
 
 function startBody(data) {
-    return data + "<body>";
+    return data + "<body style=\"padding: 2%\">";
 }
 
 function endBody(data) {
@@ -109,6 +109,32 @@ function addPermalink(data, permalink) {
     return data;
 }
 
+function addSentence(data, text) {
+    data = startParagraph(data);
+    data = newLineSpace(data);
+    data = addText(data, text);
+    data = newLineSpace(data);
+    data = endParagraph(data);
+    data = newLineSpace(data);
+    return data;
+}
+
+function startBoldUnderline(data) {
+    return data + "<b><u>"
+}
+
+function endBoldUnderline(data) {
+    return data + "</u></b>"
+}
+
+function startBoldItalic(data) {
+    return data + "<b><i>"
+}
+
+function endBoldItalic(data) {
+    return data + "</b></i>"
+}
+
 module.exports = {
-    startHead, newLine, addSpace, newLineSpace, addCss, endHead, addHeader, startBody, endBody, startTitle, endTitle, addText, startParagraph, endParagraph, addLink, breakLine, headerBody, addPermalink
+    startHead, newLine, addSpace, newLineSpace, addCss, endHead, addHeader, startBody, endBody, startTitle, endTitle, addText, startParagraph, endParagraph, addLink, breakLine, headerBody, addPermalink, addSentence, startBoldUnderline, endBoldUnderline, startBoldItalic, endBoldItalic
 };
