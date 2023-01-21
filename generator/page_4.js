@@ -1,0 +1,6 @@
+'Why I recommend multiple github repositories'
+'Books about Software Engineering we need'
+'Books about Esports we need'
+'sport games vs sports, nfl, ufc'
+'The late stage of RTS balance, feat. Artosis'
+'The joy of rules: NFL vs Dota'
