@@ -16,12 +16,12 @@ function generate(data, permalink, title, date) {
     ' would be unbearable.'
     'Dota and League of Legends have similar sociological dynamics.'
     'If I win, it is because I am great. If I lose, the circumstances were not in my favor. God was not on my side.'
-    'These are, of course, euphemisms for blaming your team mates, but the psychological effect is still similar to blaming'
+    'These are, of course, euphemisms for blaming your teammates, but the psychological effect is still similar to blaming'
     ' misfortune in capitalism.'
-    'And if I could wave a magic wand and reduce peoples ability to blame team mates, I honestly believe that'
-    ' both Dota and League would lose 50% of its player base over night.'
+    'And if I could wave a magic wand and reduce people\'s ability to blame teammates, I honestly believe that'
+    ' both Dota and League would lose 50% of their player base over night.'
     'Thorin was recently asked about Stormgate, and he said that 1vs1 FPS and RTS games are probably a thing of the past.'
-    'I\'m not sure about that, but I do know one thing. In 1vs1 games, there are no team mates to blame.'
+    'I\'m not sure about that, but I do know one thing. In 1vs1 games, there are no teammates to blame.'
 
     data = F.newLine(data);
     data = F.endBody(data);
