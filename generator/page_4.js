@@ -16,7 +16,9 @@ function generate(data, permalink, title, date) {
 
     'I wonder if we can use this line of thinking as a model, especially to differentiate 1vs1 games from team games'
     'In Dota / League, we don\'t only have multiple heroes on the map, we have a pick and ban phase'
-    ' that adds an additional layer of balance and intrigue'
+    ' that adds an additional layer of balance and intrigue. Analysing the draft and team compositions '
+    ' is a fascinating skill, and it is required to make judgment calls like "this team has this timing window, this'
+    ' team has a potentially stronger late game" etc.'
 
     '[1] Does that mean that SC2 should constantly receive balance patches, so the game never becomes too stale and figured out?'
 
