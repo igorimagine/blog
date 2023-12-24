@@ -6,6 +6,14 @@ function generate(data, permalink, title, date) {
     data = F.newLineSpace(data);
     data = F.startParagraph(data);
     data = F.newLineSpace(data);
+    data = F.addLink(data, 'post/2023/2', 'Stormgate will fail to capture the imagination of the youth');
+    data = F.addText(data, ' (2023-12-24)');
+    data = F.newLineSpace(data);
+    data = F.endParagraph(data);
+
+    data = F.newLineSpace(data);
+    data = F.startParagraph(data);
+    data = F.newLineSpace(data);
     data = F.addLink(data, 'post/2023/1', 'Kustomize + ArgoCD: A great first impression');
     data = F.addText(data, ' (2023-12-18)');
     data = F.newLineSpace(data);
